@@ -1,0 +1,27 @@
+img {
+	width: 100%;
+}
+.block-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	margin: 20px;
+	flex: 0 0 400px;
+	background: rgb(162, 159, 159);
+}
+.card-img,
+.card {
+	border-radius: 15px 15px 0 0;
+}
+.card-text {
+	width: 95%;
+	padding: 10px;
+}
+
+.button:hover {
+	box-shadow: 10px 5px 10px 5px red;
+	border-radius: 20px;
+	padding: 10px 30px;
+	font-size: 20px;
+}
